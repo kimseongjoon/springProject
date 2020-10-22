@@ -1,13 +1,9 @@
 package my.spring.Controller.Board;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import my.spring.repository.board.FaqBoardRepository;
 import my.spring.repository.board.FaqCategoryRepository;
 import my.spring.vo.Board.FaqBoardVo;
-import my.spring.vo.Board.FaqCategoryVo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
