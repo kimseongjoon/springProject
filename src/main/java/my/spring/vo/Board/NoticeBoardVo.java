@@ -17,8 +17,6 @@ public class NoticeBoardVo {
   private long id;
   private String title;
   private String content;
-
-  private long categoryId;
   @CreationTimestamp
   private Timestamp createdAt;
   @UpdateTimestamp
